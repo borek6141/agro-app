@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agrotechnika PRO — Agro-App</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2e7d32">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1>Agrotechnika PRO — Agro-App</h1>
+    <p class="tagline">Atlas upraw • Kalkulatory • Harmonogramy • PWA</p>
+  </div>
+</header>
+
+<main class="wrap layout">
+  <aside class="sidebar" aria-label="Katalog upraw">
+    <h3>Katalog upraw</h3>
+    <div id="cropList" class="crop-list">Ładowanie…</div>
+    <hr/>
+    <h4>Ulubione</h4>
+    <div id="favs"></div>
+    <hr/>
+    <button id="btnAdd" class="btn" onclick="openAddCrop()">Dodaj uprawę</button>
+    <div class="meta">
+      <p>Data: <span id="today"></span></p>
+      <p><button class="btn small" onclick="exportJSON()">Eksportuj JSON</button>
+      <button class="btn small" onclick="importJSON()">Import JSON</button></p>
+    </div>
+  </aside>
+
+  <section id="main" class="main" tabindex="0">
+    <div class="card">
+      <h2>Witaj</h2>
+      <p>To jest pełna wersja aplikacji PWA. Po wgraniu na GitHub Pages otwórz stronę w Safari i użyj "Dodaj do ekranu początkowego", aby zainstalować aplikację na iPhonie.</p>
+      <div class="searchbar">
+        <input id="globalSearch" placeholder="Szukaj (np. pszenica, fuzarioza, chwast)..." />
+        <button class="btn" onclick="doSearch()">Szukaj</button>
+      </div>
+      <div style="margin-top:12px;color:#666">Możesz importować/eksportować pliki JSON z danymi upraw.</div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    © 2025 Agrotechnika PRO — demo. Dane ogólne. <span id="swStatus"></span>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
