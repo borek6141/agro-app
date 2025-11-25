@@ -1,0 +1,591 @@
+{
+  "exportedAt": "2025-11-25T00:00:00Z",
+  "crops": [
+    {
+      "id": "pszenica",
+      "title": "Pszenica ozima",
+      "notes": "Uniwersalna uprawa zbożowa",
+      "requirements": [
+        "pH 6.0–7.2",
+        "gleby I-IIIa"
+      ],
+      "cultivation": [
+        "Siew: wrzesień–październik",
+        "Norma wysiewu: 120–180 kg/ha"
+      ],
+      "fertilization": {
+        "N": "140-200",
+        "P": "60-90",
+        "K": "80-120",
+        "S": "20-40"
+      },
+      "protection": {
+        "weeds": "Herbicydy selektywne",
+        "diseases": "Septorioza, mączniak",
+        "pests": "Mszyce"
+      },
+      "schedule": {
+        "autumn": [
+          "Siew",
+          "Zaprawa"
+        ],
+        "spring": [
+          "N nawożenie",
+          "T1 fungicyd"
+        ],
+        "summer": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "pszenica_jara",
+      "title": "Pszenica jara",
+      "notes": "Szybsza odmiana, mniejsze N",
+      "requirements": [
+        "pH 6.0–7.0"
+      ],
+      "cultivation": [
+        "Siew: wiosna",
+        "Norma: 180-220 kg/ha"
+      ],
+      "fertilization": {
+        "N": "100-160",
+        "P": "50-80",
+        "K": "60-100"
+      },
+      "protection": {
+        "weeds": "Herbicydy",
+        "diseases": "Mączniak",
+        "pests": "Szkodniki"
+      },
+      "schedule": {
+        "spring": [
+          "Siew",
+          "Nawożenie"
+        ],
+        "summer": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "jeczmien",
+      "title": "Jęczmień",
+      "notes": "Dobra uprawa paszowa i browarnicza",
+      "requirements": [
+        "pH 5.8–7.0"
+      ],
+      "cultivation": [
+        "Siew wczesną wiosną (jary) lub jesienią (ozimy)"
+      ],
+      "fertilization": {
+        "N": "80-140",
+        "P": "50-80",
+        "K": "60-120"
+      },
+      "protection": {
+        "weeds": "Herbicydy",
+        "diseases": "Ramularia",
+        "pests": "Słodyszek"
+      },
+      "schedule": {
+        "spring": [
+          "Siew",
+          "Nawożenie"
+        ],
+        "summer": [
+          "Fungicydy",
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "zyto",
+      "title": "Żyto",
+      "notes": "Toleruje gorsze gleby",
+      "requirements": [
+        "pH 4.5–6.5"
+      ],
+      "cultivation": [
+        "Siew: jesień"
+      ],
+      "fertilization": {
+        "N": "80-140",
+        "P": "40-80",
+        "K": "50-120"
+      },
+      "protection": {
+        "weeds": "Herbicydy selektywne",
+        "diseases": "Grzybowe",
+        "pests": "Nicienie"
+      },
+      "schedule": {
+        "autumn": [
+          "Siew"
+        ],
+        "spring": [
+          "Nawożenie"
+        ],
+        "summer": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "owies",
+      "title": "Owies",
+      "notes": "Dobra roślina na gleby lekkie",
+      "requirements": [
+        "pH 5.5–7.0"
+      ],
+      "cultivation": [
+        "Siew wiosną"
+      ],
+      "fertilization": {
+        "N": "60-120",
+        "P": "40-60",
+        "K": "40-80"
+      },
+      "protection": {
+        "weeds": "Odchwaszczanie",
+        "diseases": "Mączniak",
+        "pests": "Szkodniki łąkowe"
+      },
+      "schedule": {
+        "spring": [
+          "Siew"
+        ],
+        "summer": [
+          "Ochrona"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "pszenzyto",
+      "title": "Pszenżyto",
+      "notes": "Optimalne na pasze",
+      "requirements": [
+        "pH 6.0–7.0"
+      ],
+      "cultivation": [
+        "Siew jesienny"
+      ],
+      "fertilization": {
+        "N": "120-180",
+        "P": "60-90",
+        "K": "60-120"
+      },
+      "protection": {
+        "weeds": "Herbicydy",
+        "diseases": "Grzybowe",
+        "pests": "Szkodniki"
+      },
+      "schedule": {
+        "autumn": [
+          "Siew"
+        ],
+        "spring": [
+          "Nawożenie"
+        ],
+        "summer": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "kukurydza",
+      "title": "Kukurydza",
+      "notes": "Wysokie zapotrzebowanie na N i wodę",
+      "requirements": [
+        "pH 5.5–7.0"
+      ],
+      "cultivation": [
+        "Siew przy temp. gleby >8°C",
+        "Rzędy co 70-75 cm"
+      ],
+      "fertilization": {
+        "N": "160-250",
+        "P": "60-90",
+        "K": "120-180"
+      },
+      "protection": {
+        "weeds": "Triazyny, powschodowe",
+        "diseases": "Fuzarioza",
+        "pests": "Omacnica"
+      },
+      "schedule": {
+        "spring": [
+          "Siew",
+          "Nawożenie P/K"
+        ],
+        "summer": [
+          "Dokarmianie N",
+          "Monitoring"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "rzepak",
+      "title": "Rzepak ozimy",
+      "notes": "Wymaga siarki i boru",
+      "requirements": [
+        "pH 6.0–7.5"
+      ],
+      "cultivation": [
+        "Siew: koniec VIII–IX"
+      ],
+      "fertilization": {
+        "N": "160-220",
+        "P": "60-90",
+        "K": "80-140",
+        "S": "30-60",
+        "B": "300-500 g/ha"
+      },
+      "protection": {
+        "weeds": "Wczesne zabiegi herbicydowe",
+        "diseases": "Choroby grzybowe",
+        "pests": "Chowacz, słodyszek"
+      },
+      "schedule": {
+        "autumn": [
+          "Siew"
+        ],
+        "spring": [
+          "Nawożenie",
+          "Ochrona insektycydowa"
+        ],
+        "summer": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "soja",
+      "title": "Soja",
+      "notes": "Roślina strączkowa wiążąca N",
+      "requirements": [
+        "pH 6.0–7.0"
+      ],
+      "cultivation": [
+        "Siew wiosenny"
+      ],
+      "fertilization": {
+        "N": "niskie (inokulacja)",
+        "P": "40-80",
+        "K": "80-120"
+      },
+      "protection": {
+        "weeds": "Silna presja chwastów",
+        "diseases": "Choroby grzybowe",
+        "pests": "Nicienie"
+      },
+      "schedule": {
+        "spring": [
+          "Siew"
+        ],
+        "summer": [
+          "Odchwaszczanie"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "burak",
+      "title": "Burak cukrowy",
+      "notes": "Wymaga wapnowania i precyzyjnego nawożenia",
+      "requirements": [
+        "pH 6.0–7.5"
+      ],
+      "cultivation": [
+        "Siew punktowy"
+      ],
+      "fertilization": {
+        "N": "120-180",
+        "P": "80-120",
+        "K": "120-200",
+        "Mg": "20-40"
+      },
+      "protection": {
+        "weeds": "Wielokrotne zabiegi",
+        "diseases": "Fusarium",
+        "pests": "Stonka buraczana"
+      },
+      "schedule": {
+        "spring": [
+          "Siew"
+        ],
+        "summer": [
+          "Monitoring"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "ziemniaki",
+      "title": "Ziemniaki",
+      "notes": "Wrażliwe na choroby grzybowe",
+      "requirements": [
+        "pH 5.5–6.5"
+      ],
+      "cultivation": [
+        "Sadzenie bulw wiosną"
+      ],
+      "fertilization": {
+        "N": "120-220",
+        "P": "60-100",
+        "K": "120-200"
+      },
+      "protection": {
+        "weeds": "Mechaniczne i herbicydowe",
+        "diseases": "Zaraza ziemniaczana",
+        "pests": "Stonka ziemniaczana"
+      },
+      "schedule": {
+        "spring": [
+          "Sadzenie"
+        ],
+        "summer": [
+          "Ochrona fungicydowa"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "slonecznik",
+      "title": "Słonecznik",
+      "notes": "Odmiana oleista",
+      "requirements": [
+        "pH 6.0–7.5"
+      ],
+      "cultivation": [
+        "Siew wiosenny"
+      ],
+      "fertilization": {
+        "N": "80-140",
+        "P": "40-80",
+        "K": "80-120"
+      },
+      "protection": {
+        "weeds": "Herbicydy",
+        "diseases": "Choroby grzybowe",
+        "pests": "Smużnica"
+      },
+      "schedule": {
+        "spring": [
+          "Siew"
+        ],
+        "summer": [
+          "Monitoring"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "lupin",
+      "title": "Łubin",
+      "notes": "Roślina wiążąca azot, dobry przedplon",
+      "requirements": [
+        "pH 5.5–7.0"
+      ],
+      "cultivation": [
+        "Siew wiosenny"
+      ],
+      "fertilization": {
+        "N": "niskie",
+        "P": "40-80",
+        "K": "60-100"
+      },
+      "protection": {
+        "weeds": "Mulcz/odchwaszczanie",
+        "diseases": "Grzybowe",
+        "pests": "Nicienie"
+      },
+      "schedule": {
+        "spring": [
+          "Siew"
+        ],
+        "summer": [
+          "Monitoring"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "groch",
+      "title": "Groch",
+      "notes": "Roślina strączkowa — dobry przedplon",
+      "requirements": [
+        "pH 6.0–7.0"
+      ],
+      "cultivation": [
+        "Siew wiosenny"
+      ],
+      "fertilization": {
+        "N": "niskie",
+        "P": "40-80",
+        "K": "60-100"
+      },
+      "protection": {
+        "weeds": "Odchwaszczanie",
+        "diseases": "Ascochyta",
+        "pests": "Szkodniki"
+      },
+      "schedule": {
+        "spring": [
+          "Siew"
+        ],
+        "summer": [
+          "Monitoring"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "proso",
+      "title": "Proso",
+      "notes": "Odporne na suszę",
+      "requirements": [
+        "pH 5.5–7.0"
+      ],
+      "cultivation": [
+        "Siew wiosenny"
+      ],
+      "fertilization": {
+        "N": "40-80",
+        "P": "20-40",
+        "K": "40-80"
+      },
+      "protection": {
+        "weeds": "Mechaniczne",
+        "diseases": "niskie ryzyko",
+        "pests": "ptaki"
+      },
+      "schedule": {
+        "spring": [
+          "Siew"
+        ],
+        "summer": [
+          "Monitoring"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "sorgo",
+      "title": "Sorgo",
+      "notes": "Alternatywa dla kukurydzy w suchszych regionach",
+      "requirements": [
+        "pH 5.5–7.5"
+      ],
+      "cultivation": [
+        "Siew wiosenny"
+      ],
+      "fertilization": {
+        "N": "80-160",
+        "P": "40-80",
+        "K": "60-140"
+      },
+      "protection": {
+        "weeds": "Herbicydy",
+        "diseases": "Fuzarioza",
+        "pests": "Owady"
+      },
+      "schedule": {
+        "spring": [
+          "Siew"
+        ],
+        "summer": [
+          "Monitoring"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "rzepak_jary",
+      "title": "Rzepak jary",
+      "notes": "Wariant rzepaku bez zimowania",
+      "requirements": [
+        "pH 6.0–7.5"
+      ],
+      "cultivation": [
+        "Siew wiosenny"
+      ],
+      "fertilization": {
+        "N": "120-180",
+        "P": "50-90",
+        "K": "60-120"
+      },
+      "protection": {
+        "weeds": "Herbicydy",
+        "diseases": "Grzybowe",
+        "pests": "Szkodniki"
+      },
+      "schedule": {
+        "spring": [
+          "Siew"
+        ],
+        "summer": [
+          "Monitoring"
+        ],
+        "autumn": [
+          "Zbiór"
+        ]
+      }
+    },
+    {
+      "id": "lucerna",
+      "title": "Lucerna",
+      "notes": "Roślina pastewna — duża wartość paszowa",
+      "requirements": [
+        "pH 6.5–7.5"
+      ],
+      "cultivation": [
+        "Siew wiosenny lub jesienny"
+      ],
+      "fertilization": {
+        "N": "niskie (wiązanie)",
+        "P": "60-100",
+        "K": "80-120"
+      },
+      "protection": {
+        "weeds": "Wczesne odchwaszczanie",
+        "diseases": "zależne od gatunku",
+        "pests": "szkodniki łąkowe"
+      },
+      "schedule": {
+        "spring": [
+          "Siew"
+        ],
+        "summer": [
+          "Kosy i zbiory"
+        ],
+        "autumn": [
+          "Przygotowanie do zimy"
+        ]
+      }
+    }
+  ]
+}
